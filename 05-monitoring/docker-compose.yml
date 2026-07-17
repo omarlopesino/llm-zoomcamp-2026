@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: course-assistant-pg
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: course_assistant
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
