@@ -1,0 +1,3 @@
+# Dev profile — named destination "warehouse" resolves to local DuckDB.
+[destination.warehouse]
+destination_type = "duckdb"

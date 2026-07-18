@@ -1,0 +1,6 @@
+# Prod profile — named destination "warehouse" resolves to MotherDuck (persistent).
+[destination.warehouse]
+destination_type = "motherduck"
+
+[destination.warehouse.credentials]
+database = "agent_traces"

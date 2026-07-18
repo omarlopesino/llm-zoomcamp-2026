@@ -1,0 +1,15 @@
+# put your configuration values here
+
+[runtime]
+log_level="WARNING"  # the system log level of dlt
+# use the dlthub_telemetry setting to enable/disable anonymous usage data reporting, see https://dlthub.com/docs/reference/telemetry
+dlthub_telemetry = true
+workspace_id = "f014cbfc-f975-40b2-beed-a1d44b048f28"
+organization_id = "fa01329d-15f4-44e6-afe3-919dddaa4d57"
+
+[sources.filesystem]
+bucket_url = "file:///home/omi/.claude/projects"
+
+
+[workspace.settings]
+name = "dlthub"
